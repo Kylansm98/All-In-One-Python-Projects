@@ -8,3 +8,5 @@ def Task:
 
     def mark_as_compleated(self):
         self.compleated = True
+    def mark_as_incompleated(self):
+        self.compleated = False
